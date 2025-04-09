@@ -1,0 +1,19 @@
+{
+  "name": "lesson-22",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:headless": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:headed:safari": "playwright test --headed --project=webkit",
+    "test:headed:chromium": "playwright test --headed --project=chromium",
+    "test:headed:chrome": "playwright test --headed --project=GoogleChrome --workers=1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.0"
+  }
+}
